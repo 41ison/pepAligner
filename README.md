@@ -1,8 +1,9 @@
 # pepAligner
 Matche peptide sequences from a list to protein sequences from a FASTA file.
 
-This script matches peptide sequences from a list to protein sequences from a FASTA file. It processes unique peptide sequences from a CSV file and searches for fuzzy matches in a FASTA file using Levenshtein distance with up to 1 mismatch (adjustable via the `max_mismatches` parameter). 
-⚠️Please, observe that the time will increase as you load larger lists of peptides and/or protein FASTA files.
+This script matches peptide sequences from a list to protein sequences from a FASTA file. It processes unique peptide sequences from a CSV file and searches for fuzzy matches in a FASTA file using Levenshtein distance with up to 1 mismatch (adjustable via the `max_mismatches` parameter).
+
+⚠️Please, observe that the run time will increase as you load larger lists of peptides and/or protein FASTA files.
 
 ### USAGE
 In your python terminal type:
