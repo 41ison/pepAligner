@@ -9,13 +9,12 @@ In your python terminal type:
 > python PepAligner.py [path/to/fasta_file] [path/to/peptide_file] [path/to/output_file]
 
 ## The CSV output contains 6 columns:
-
-**1. Protein_ID:** Protein identifier.
-**2. Peptide_Count:** Total number of peptides matching this protein.
-**3. Unique_Peptide_Count** shows how many peptides are unique to each protein.
-**4. Peptide_Sequences:** Peptide sequences with Levenshtein distance in parentheses.
-**5. Amino_Acid_Substitutions:** shows mutations in format like "A1G;K5R" (Ala at position 1 to Gly, Lys at position 5 to Arg).
-**6. Grantham_Distances:** shows the Grantham distance for each substitution. Scores range from 5 (conservative, e.g., I/L) to 215 (radical, e.g., C/W).
+- **Protein_ID:** Protein identifier.
+- **Peptide_Count:** Total number of peptides matching this protein.
+- **Unique_Peptide_Count** shows how many peptides are unique to each protein.
+- **Peptide_Sequences:** Peptide sequences with Levenshtein distance in parentheses.
+- **Amino_Acid_Substitutions:** shows mutations in format like "A1G;K5R" (Ala at position 1 to Gly, Lys at position 5 to Arg).
+- **Grantham_Distances:** shows the Grantham distance for each substitution. Scores range from 5 (conservative, e.g., I/L) to 215 (radical, e.g., C/W).
 
 ## Key references:
 > **Levenshtein distance:** Levenshtein, V. I. Binary Codes Capable of Correcting Deletions, Insertions and Reversals. Soviet Physics Doklady, 1966 Vol. 10, p.707
@@ -23,7 +22,7 @@ In your python terminal type:
 > **Grantham distance stratification:** Li WH, Wu CI, Luo CC. Nonrandomness of point mutation as reflected in nucleotide substitutions in pseudogenes and its evolutionary implications. J Mol Evol. 1984;21(1):58-71. doi: 10.1007/BF02100628. PMID: 6442359.
 
 **Grantham's distance (d) between amino acids.**
-     - Conservative if 0 < d ≤ 50,
-     - Moderately conservative if 50 < d ≤ 100,
-     - Moderately radical if 100 < d ≤ 150,
-     - Radical if d > 150.
+- Conservative if 0 < d ≤ 50,
+- Moderately conservative if 50 < d ≤ 100,
+- Moderately radical if 100 < d ≤ 150,
+- Radical if d > 150.
