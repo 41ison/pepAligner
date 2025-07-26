@@ -17,9 +17,9 @@ In your python terminal type:
 - **Grantham_Distances:** shows the Grantham distance for each substitution. Scores range from 5 (conservative, e.g., I/L) to 215 (radical, e.g., C/W).
 
 ## Key references:
-> **Levenshtein distance:** Levenshtein, V. I. Binary Codes Capable of Correcting Deletions, Insertions and Reversals. Soviet Physics Doklady, 1966 Vol. 10, p.707
-> **Grantham distance:** Grantham R. Amino acid difference formula to help explain protein evolution. Science. 1974 Sep 6;185(4154):862-4. doi: 10.1126/science.185.4154.862. PMID: 4843792.
-> **Grantham distance stratification:** Li WH, Wu CI, Luo CC. Nonrandomness of point mutation as reflected in nucleotide substitutions in pseudogenes and its evolutionary implications. J Mol Evol. 1984;21(1):58-71. doi: 10.1007/BF02100628. PMID: 6442359.
+> - **Levenshtein distance:** Levenshtein, V. I. Binary Codes Capable of Correcting Deletions, Insertions and Reversals. Soviet Physics Doklady, 1966 Vol. 10, p.707
+> - **Grantham distance:** Grantham R. Amino acid difference formula to help explain protein evolution. Science. 1974 Sep 6;185(4154):862-4. doi: 10.1126/science.185.4154.862. PMID: 4843792.
+> - **Grantham distance stratification:** Li WH, Wu CI, Luo CC. Nonrandomness of point mutation as reflected in nucleotide substitutions in pseudogenes and its evolutionary implications. J Mol Evol. 1984;21(1):58-71. doi: 10.1007/BF02100628. PMID: 6442359.
 
 **Grantham's distance (d) between amino acids.**
 - Conservative if 0 < d ≤ 50,
