@@ -31,3 +31,5 @@ python PepAligner.py [path/to/fasta_file] [path/to/peptide_file] [path/to/output
 - Moderately conservative if 50 < d ≤ 100,
 - Moderately radical if 100 < d ≤ 150,
 - Radical if d > 150.
+
+![This id the output of the pepAligner as processed by the streamlit app version](https://github.com/41ison/pepAligner/blob/main/pepAligner_output.png)
